@@ -1,21 +1,13 @@
 #!/usr/bin/perl -w
 
-# Quick hack um aus der /etc/named.conf die eingetragenen Domains zu
-# extrahieren.
+# Reads domains from /etc/named.conf.
 
-# (c) 2003,2006 Robert Weiler <http://www.robwei.de/>
-# GPL'ed <http://www.gnu.org/licenses/gpl.html>
-# Dieses Skript kommt OHNE JEGLICHE GEWÄHRLEISTUNG.
-
-
+# (c) 2003,2006 Robert Weiler
+# Released und the GPL <http://www.gnu.org/licenses/gpl.html>
 
 use strict;
 
-
-
 my @z;
-
-
 
 open(FILE, '/etc/named.conf') or die "$!\n";
 while (<FILE>) {
@@ -25,19 +17,15 @@ while (<FILE>) {
 }
 close(FILE) or warn "$!\n";
 
-
-
 if (scalar(@z) > 0) {
-    print "Bekannte Domains auf dem Server:\n";
+    print "Known domains:\n";
     foreach (sort(@z)) {
         print "    -> $_\n";
     }
 }
 else {
-    print "Auf dem Server sind keine Domains bekannt.\n";
+    print "No domains found.\n";
 }
-
-
 
 exit(scalar(@z));
 
