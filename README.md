@@ -14,6 +14,10 @@ zone-extract.pl requires a Perl interpreter.
 
 ./zone-extract.pl
 
+## Source
+
+The main repository for zone-extract.pl is located at GitLab: [https://gitlab.com/rbrt-weiler/zone-extract](https://gitlab.com/rbrt-weiler/zone-extract)
+
 ## License
 
 zone-extract.pl is released under the [Zlib License](http://opensource.org/licenses/Zlib).
