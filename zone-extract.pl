@@ -2,8 +2,8 @@
 
 # Reads domains from /etc/named.conf.
 
-# (c) 2003,2006 Robert Weiler
-# Released und the GPL <http://www.gnu.org/licenses/gpl.html>
+# (c) 2003,2006 Robert Weiler.
+# Released under the Zlib License, see LICENSE.
 
 use strict;
 

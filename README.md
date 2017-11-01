@@ -16,7 +16,7 @@ zone-extract.pl requires a Perl interpreter.
 
 ## License
 
-zone-extract.pl is released under the [GNU General Public License](http://opensource.org/licenses/gpl-license.php).
+zone-extract.pl is released under the [Zlib License](http://opensource.org/licenses/Zlib).
 
 ## Copyright
 
