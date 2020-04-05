@@ -25,4 +25,3 @@ zone-extract.pl is released under the [Zlib License](http://opensource.org/licen
 ## Copyright
 
 zone-extract.pl is (c) 2003,2006 Robert Weiler.
-
